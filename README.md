@@ -32,3 +32,35 @@ args[2]은 콘솔에서의 입력값
 함수의 이름이 없는 함수를 익명 함수라고 한다.
 
 엄청 느린 함수에 callback() 함수로 익명 함수를 호출한다.
+
+# Node.js의 패키지 매니저 npm, PM2
+
+    npm install pm2 -g
+
+pm2 설치
+
+    pm2 start main.js
+
+main.js 실행
+
+    pm2 monit
+
+현재 pm2 에 실행되고 있는 프로그램 목록 확인
+
+나가려면 q
+
+    pm2 list
+
+현재 실행중인 프로세스의 리스트 출력
+
+    pm2 stop main
+
+main name 종료
+
+    pm2 start main.js --watch
+
+main.js 의 파일이 저장될 시 main.js가 재실행된다.
+
+    pm2 log
+
+문제점이 있을 때 문제점을 보여준다.
