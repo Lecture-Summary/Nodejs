@@ -20,7 +20,7 @@ query string 의 시작은 ? 로 하기로 약속
 
 # process.argv
 
-    var = args = process.argv
+    var args = process.argv
     console.log(args[2]);
 
 args[0]은 node.js 런타임환경? 주소
