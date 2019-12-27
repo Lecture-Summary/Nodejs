@@ -89,3 +89,7 @@ get 방식은 서버에 데이터를 가져올때 사용한다.
     response.writeHead(302, {Location: `link`});
 
 리다이렉션이란 사용자가 어떤 페이지를 왔을때 처리를 한 후 다른 페이지로 팅겨버리는 것.
+
+# fs.rename
+
+    fs.rename(oldPath, newPath, callback)
