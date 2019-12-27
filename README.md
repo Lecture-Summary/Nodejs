@@ -93,3 +93,9 @@ get 방식은 서버에 데이터를 가져올때 사용한다.
 # fs.rename
 
     fs.rename(oldPath, newPath, callback)
+
+# fs.unlink
+
+    fs.unlink(path,callback)
+
+파일 삭제
