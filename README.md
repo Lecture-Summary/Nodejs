@@ -61,6 +61,10 @@ main name 종료
 
 main.js 의 파일이 저장될 시 main.js가 재실행된다.
 
+    pm2 start main.js --watch --ignore-watch="data/*"
+
+data 디렉토리에 대해서는 watch를 하지않는다.
+
     pm2 log
 
 문제점이 있을 때 문제점을 보여준다.
