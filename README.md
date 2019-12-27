@@ -76,3 +76,16 @@ link로 데이터를 전송하고 post 방식은 필요한 데이터를 url로 �
     <form action="link" method="get">
 
 get 방식은 서버에 데이터를 가져올때 사용한다.
+
+# fs.fileWrite
+
+    fs.writeFile(`link`, data, "utf8", function(err) {
+        response.writeHead(200);
+        response.end("success");
+    });
+
+# 리다이렉션
+
+    response.writeHead(302, {Location: `link`});
+
+리다이렉션이란 사용자가 어떤 페이지를 왔을때 처리를 한 후 다른 페이지로 팅겨버리는 것.
