@@ -64,3 +64,15 @@ main.js 의 파일이 저장될 시 main.js가 재실행된다.
     pm2 log
 
 문제점이 있을 때 문제점을 보여준다.
+
+# HTML-Form
+
+Form 은 웹브라우저에서 서버로 데이터를 전송할 때 사용하는 기능이다.
+
+    <form action="link" method="post">
+
+link로 데이터를 전송하고 post 방식은 필요한 데이터를 url로 보내면 안될 때 눈에 보이지 않는 방식으로 보내는 방법이다. 서버의 데이터를 수정 삭제 생성할 때 반드시 post 방식으로 한다.
+
+    <form action="link" method="get">
+
+get 방식은 서버에 데이터를 가져올때 사용한다.
