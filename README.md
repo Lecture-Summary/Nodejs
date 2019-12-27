@@ -99,3 +99,15 @@ get 방식은 서버에 데이터를 가져올때 사용한다.
     fs.unlink(path,callback)
 
 파일 삭제
+
+# 객체의 반복
+
+    var roles = {
+        programmer: "egoing",
+        designer: "k8805",
+        manager: "hoya"
+    };
+
+    for (var name in roles) {
+        console.log("object => ", name, "value => ", roles[name]);
+    }
