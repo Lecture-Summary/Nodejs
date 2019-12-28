@@ -69,6 +69,10 @@ data 디렉토리에 대해서는 watch를 하지않는다.
 
 문제점이 있을 때 문제점을 보여준다.
 
+    npm install -S sanitize-html
+
+이 프로젝트 한정으로 sanitize-html 을 설치
+
 # HTML-Form
 
 Form 은 웹브라우저에서 서버로 데이터를 전송할 때 사용하는 기능이다.
