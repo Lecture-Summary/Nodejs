@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "http://opentutorials.org:3000/main?id=HTML&page=12",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoJin9622/Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoJin9622/Nodejs/issues"
+  },
+  "homepage": "https://github.com/HoJin9622/Nodejs#readme",
+  "dependencies": {
+    "sanitize-html": "^1.20.1"
+  }
+}
